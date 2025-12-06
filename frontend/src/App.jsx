@@ -15,8 +15,8 @@ import PrivateRoute from "./routes/PrivateRoute.jsx";
 import EmailGenerator from "./pages/admin/EmailGenerator.jsx";
 import ExcelSummarizer from "./pages/admin/ExcelSummarizer.jsx";
 import MeetingScheduler from "./pages/admin/MeetingScheduler.jsx";
-import UserProvider from "./context/userContext.jsx";
-import { UserContext } from "./context/userContext.jsx"
+import UserProvider from "./context/UserContext.jsx";
+import { UserContext } from "./context/UserContext.jsx"
 
 const Root = () => {
   const { user, loading } = useContext(UserContext);

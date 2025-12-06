@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { UserAuth } from "../../hooks/UserAuth";
-import { UserContext } from "../../context/userContext";
+import { UserContext } from "../../context/UserContext";
 import DashboardLayout from "../../components/layouts/DashboardLayout";
 import { useNavigate } from "react-router-dom";
 import axiosInstance from "../../utils/axiosInstance";
